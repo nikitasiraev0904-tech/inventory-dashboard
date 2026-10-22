@@ -1,24 +1,8 @@
-# 1. Создаем папку проекта и переходим в неё
-mkdir inventory-dashboard
+# Переходим на рабочий стол
+cd "C:\Users\Shiryaev.NR\Desktop"
+
+# Клонируем ваш репозиторий
+git clone https://github.com/nikitasiraev0904-tech/inventory-dashboard.git
+
+# Переходим в папку
 cd inventory-dashboard
-
-# 2. Создаем файл README (описание проекта)
-echo "# inventory-dashboard" >> README.md
-
-# 3. Инициализируем Git (превращаем папку в репозиторий)
-git init
-
-# 4. Добавляем файл README в список отслеживаемых
-git add README.md
-
-# 5. Делаем первый коммит (сохранение версии)
-git commit -m "first commit"
-
-# 6. Переименовываем ветку в main
-git branch -M main
-
-# 7. Связываем с вашим репозиторием на GitHub
-git remote add origin https://github.com/nikitasiraev0904-tech/inventory-dashboard.git
-
-# 8. Отправляем всё на GitHub
-git push -u origin main
